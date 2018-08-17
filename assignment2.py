@@ -23,4 +23,8 @@ print("%s %s fees is %d." %(s, course,fees))
 name="Tony Stark"
 salary=1000000
 print(("%s%d")%(name,salary))
+
+#question-7(area of circle)
+rad=int(input("enter radius"))
+print("area of circle is ",3.14*rad*rad)
        
