@@ -1,3 +1,5 @@
+                                                                        #LISTS
+
 #question-1
 a=[]
 size=int(input("enter size of list"))
@@ -30,24 +32,6 @@ c.sort()
 print(c)
 
 #question-6
-#reference taken from geeks for geeks website
-#stack
-stack = ["A", "B", "C"]
-print(stack)
-print(stack.pop())      #pop will remove the last element....stack follows last in first out principle.
-print(stack)
-print(stack.pop())
-print(stack)
-
-#queue
-from collections import deque
-queue = deque(["A", "B", "C", "D"])
-print(queue)
-print(queue.popleft())
-print(queue.popleft())
-print(queue)
-
-#question-7(optional question)
 a=[]
 even=0
 odd=0
@@ -61,3 +45,36 @@ for i in range(0,size):
         odd+=1;
 print("list is-",a)
 print("list contains %d odd and %d even numbers."%(odd,even))
+
+
+                                                                        #TUPLES
+
+
+#question-7
+a=(1,2,3,4)
+z=slice(-1,-5,-1)
+print(a[z])
+
+#question-8
+a=(1,2,3,4,5)
+print("max element in tuple is ",max(a))
+print("min element in tuple is ",min(a))
+
+
+                                                                        #STRINGS
+
+
+#question-9
+a="hey there!"
+print(a.upper())
+
+#question-10
+a="12345"
+if a.isdigit():
+    print("true")
+else:
+    print("false")
+
+#question-11
+a="hello world"
+print(a.replace("world","supriya"))
