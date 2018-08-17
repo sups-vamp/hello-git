@@ -7,7 +7,7 @@ git config --global user.email "email"
 
 $ git init--for Initializing empty Git repository.(used when working for the first time)
 
-$ git status--to check the files and folder status;which files are tracked-untracked.
+$ git status--to check the files and folder status;which files are tracked-untracked.untracked in red,tracked in green. 
 
 $ git add -A  --it adds a change in the working directory to the staging area. It tells Git if we want to include updates to a particular file in the next commit.
 
