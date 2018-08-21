@@ -90,7 +90,7 @@ print(b)    #list of their squares
 
 
 #question-9
-a= [ 4,'a', 'b', 'c', 1, 'd', 3,4.5]
+a= ['supi', 'priya', 10,11,233,4.5]
 ints= [x for x in a if isinstance(x, int)]
 print(ints)
 strs= [x for x in a if isinstance(x, str)]
