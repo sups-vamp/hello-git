@@ -91,11 +91,18 @@ print(b)    #list of their squares
 
 #question-9
 a= ['supi', 'priya', 10,11,233,4.5]
-ints= [x for x in a if isinstance(x, int)]
+ints=[]
+strs=[]
+floats=[]
+for i in range(0,6):
+    if isinstance(a[i], int):
+        ints.append(a[i])
+    elif isinstance(a[i], str):
+        strs.append(a[i])
+    else:
+        floats.append(a[i])
 print(ints)
-strs= [x for x in a if isinstance(x, str)]
 print(strs)
-floats= [x for x in a if isinstance(x, float)]
 print(floats)
 
 #question-10
