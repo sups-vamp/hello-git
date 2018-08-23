@@ -1,3 +1,4 @@
+#FUNCTIONS
 #question-1
 def calculate(rad):
     return(4*3.14*rad*rad)
@@ -33,3 +34,9 @@ def cal(num,poe):
 num=int(input("enter a number"))
 poe=int(input("enter the power"))
 print(cal(num,poe))
+
+
+
+
+
+
