@@ -6,7 +6,7 @@ class circle:
     def getArea(self):
         return(3.14*self.radius*self.radius)
     def getCircumference(self):
-       return(2*3.14*self.radius)
+        return(2*3.14*self.radius)
 r=int(input("enter radius"))
 c=circle(r)
 print("area is ",c.getArea())
@@ -45,6 +45,23 @@ print(t.convertCelsius())
 
 
 #question-4
+class MovieDetails:
+    def __init__(self):
+        self.artistname = input("enter artist name")
+        self.year=input("enter year")
+        self.rating=int(input("enter ratings out of 5"))
+    def add(self):
+        self.moviename=input("enter the movie name")
+        self.collection=int(input("enter total collection"))
+    def display(self):
+        print(self.moviename)
+        print(self.artistname)
+        print(self.year)
+        print(self.rating)
+        print(self.collection)
+m=MovieDetails()
+m.add()
+m.display()
 
 
 
@@ -53,7 +70,9 @@ print(t.convertCelsius())
 
 
 #question-6
-
+'''output will be:
+A B
+A B'''
 
 
 #question-7
