@@ -66,7 +66,13 @@ m.display()
 
 
 #question-5
-
+class animal:
+    def animal_attribute(self):
+        return("hello!im a tiger")
+class tiger(animal):
+    pass
+t=tiger()
+print(t.animal_attribute())
 
 
 #question-6
@@ -76,3 +82,28 @@ A B'''
 
 
 #question-7
+class shape:
+    def __init__(self,l,b):
+        self.length=l
+        self.breadth=b
+    def area(self):
+        return(self.length*self.breadth)
+class rectangle(shape):
+    pass
+class square(shape):
+    pass
+l=int(input("enter length"))
+b=int(input("enter breadth"))
+r=rectangle(l,b)
+s=square(l,b)
+print("area of rectangle ",r.area())
+print("area of square ",s.area())
+
+
+
+
+
+
+
+
+
