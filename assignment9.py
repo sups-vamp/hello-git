@@ -1,12 +1,12 @@
 #question-1
 #the code snippet shows ZeroDivisionError
-'''a=3
+a=3
 if a<4:
     try:
         a=a/(a-3)
     except:
         print("denominator cannot be zero!")
-print(a)'''
+print(a)
 
 
 #question-2
@@ -28,3 +28,19 @@ except:
 
 
 #question-5
+#1.IMPORT ERROR
+try:
+    import copyy
+except ImportError as message:
+    print('Exception:', message)
+#2.VALUE ERROR
+try:
+    num=int(input("enter a number"))
+except ValueError as message:
+    print('Exception:', message)
+#3.INDEX ERROR
+l=[1,2,3]
+try:
+    print(l[3]) 
+except:
+    print("indexes above 2 aren't acceptable.")
